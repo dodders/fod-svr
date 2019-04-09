@@ -1,0 +1,22 @@
+{
+  "name": "fod-svr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dodders/fod-svr.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dodders/fod-svr/issues"
+  },
+  "homepage": "https://github.com/dodders/fod-svr#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
