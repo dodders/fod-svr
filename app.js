@@ -1,10 +1,12 @@
 const express = require('express');
+var cors = require('cors');
 var testroute = require('./routes/test');
 var foodroute= require('./routes/food');
 var fodmaproute= require('./routes/fodmaps');
 
 var app = express();
-var port = 4000
+app.use(cors());
+var port = 3001
 
 app.use('/', testroute);
 app.use('/foods', foodroute);
